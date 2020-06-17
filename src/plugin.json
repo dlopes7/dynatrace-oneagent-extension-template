@@ -1,0 +1,27 @@
+{
+    "name": "custom.python.basic_plugin",
+    "version": "1.001",
+    "type": "python",
+    "entity": "HOST",
+    "technologies": ["JAVA"],
+    "metricGroup": "tech.BasicPlugin",
+    "source": {
+        "package": "basic_plugin",
+        "className": "BasicPlugin",
+        "install_requires": [ ],
+        "activation": "Singleton"
+    },
+    "properties": [],
+    "configUI": {
+        "displayName": "Basic Plugin",
+        "properties": []
+    },
+    "metrics": [{
+            "timeseries": {
+                "key": "custom",
+                "unit": "Count",
+                "displayname": "Custom"
+            }
+        }]
+
+    }
